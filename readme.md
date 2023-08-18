@@ -1,3 +1,3 @@
 4 week day 3 Make Unique String Code challenge
 
-In this coding challenge, I have created an arrow function that takes in a string as a parameter. This function removes any duplicate characters present in the string.
+In this coding challenge, I have created an arrow function that takes in a string as a parameter. This function removes any duplicate characters present in the string. The solution involves utilizing the Set data structure, which is designed to store unique values. By converting the input string into an array and then creating a Set from that array, duplicate characters are automatically eliminated, leaving only distinct characters. The Array.from(new Set(string)) expression achieves this conversion. Finally, the .join('') method is applied to the array of unique characters to reconstruct a string from the distinct characters, effectively removing any duplicates. The resulting unique string is then logged to the console.
